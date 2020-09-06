@@ -1,0 +1,118 @@
+
+
+
+
+#info {
+	display: flex;
+    margin-top: 2vh;
+}
+#form {
+	border: 2px solid black;
+    width: fit-content;
+    background: linear-gradient(45deg, navy, orange);
+    padding: 5vh;
+    margin: auto;
+    margin-top: 10vh;
+    margin-left: 30vh;
+    height: 50vh;
+    width: 30vw;
+    border-radius: 20px;
+}
+#button button{
+	background-color: aqua;
+}
+#check-out p{
+    margin: 0;
+}
+#check-in p{
+    margin: 0;
+
+}
+#button{
+    margin: 0;
+    width: fit-content;
+    margin-left: auto;
+    margin-top: 2vh;
+}
+#place p {
+    font-size: 20px;
+    font-weight: bold;
+}
+input,select {
+    width: 100%;
+}
+#check-in {
+    
+    width: 50%;
+}
+#check-out {
+   
+    width: 50%;
+}
+#info {
+ 
+}
+#no p{
+    margin: 0;
+
+}
+#no {
+    margin-top: 2vh;
+}
+#place p {
+    margin: 0;
+}
+#place {
+    margin-top: 2vh;
+}
+#first {
+   
+    color: grey;
+}
+#second {
+    font-weight: bold;
+    font-size: 20px;
+}
+#third {
+    color: grey;
+}
+#fourth {
+    color: grey;
+}
+#fourth img {
+    height: 12px;
+}
+#sunset {
+    height: 32vh;
+}
+#glamping{
+    display: flex;
+    
+
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+
+
+
+
+}
+
+#hotels {
+    height: 400px;
+    width: 300px;
+    margin-left: 3rem;
+}
+#hotels>img {
+        width: 100%;
+        height: 50%;
+}
+
+#header p {
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    font-size: 50px;
+    text-align: center;
+}
