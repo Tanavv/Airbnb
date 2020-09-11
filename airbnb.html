@@ -4,6 +4,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
 	<title>Air BnB</title>
 	<link rel="stylesheet" type="text/css" href="airbnb.css">
+	<script type="text/javascript" src="airbnb.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -19,7 +20,7 @@
 					 		Where is your place of interest
 					 </p>
 					<div>
-					<input type="text" placeholder="e.g France">	
+					<input type="text" placeholder="e.g France" id="where">	
 					
 					</div>
 					
@@ -30,13 +31,13 @@
 					<p>Check In</p>
 					
 
-					<input type="date" name="date">
+					<input type="date" name="date" id="Check-in" min="2020-09-11" max="2020-12-11">
 		</div>
 		<div id="check-out">
 			
 					 <p>Check Out</p>
 				
-					<input type="date" name="date">
+					<input type="date" name="date" id="Check-out" min="2020-09-12" max="2020-12-31"> 
 
 			
 		
@@ -44,14 +45,14 @@
 		</div>
 		<div id="no">
 			<p>Number of guests</p>
-			<select>
+			<select id="dropdown">
 				<option>1 Guest</option>
 				<option>2 Guest</option>
 				<option>3 Guest</option>
 				<option>4 Guest</option>
 			</select>
 			<div id="button">
-				<button>Search</button>
+				<button onclick="submitform()">Search</button>
 			</div>
 		</div>
 	</div>
