@@ -12,6 +12,6 @@ function submitform(){
 	{
 		var list= JSON.parse(storage_data)
 	}
-	list.push(list)
+	list.push(map)
 	localStorage.setItem("Travel", JSON.stringify(list))
 }
