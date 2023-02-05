@@ -119,7 +119,7 @@ input,select {
 }
 body {
     background-image:url(https://ck12live.s3.ap-south-1.amazonaws.com/user/5e957c9f9961f5314ca51b2c/classroom/original/1601209747343-1601209751040.jpeg);
-    background-position: top;
+        background-position: top;
     background-size:100% 100%;
     background-repeat: no-repeat;
 }
